@@ -13,12 +13,12 @@ In `XmlToTxt`, add `missing_hole` to `classes.txt`.
 7. Create the following structure in `root` project folder `pcb-defect-detection`:
 ```
     - dataset
-    -- images
-    --- train
-    --- val
-    -- labels
-    --- train
-    --- val
+      -- images
+        --- train
+        --- val
+      -- labels
+        --- train
+        --- val
 ```
 8. Merge images from `PCB_DATASET/images` to `PCB_DATASET/Annotations`.
 9. Move `Annotations` to `root` project folder.
