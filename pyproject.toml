@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "pcb-defect-detection"
+version = "0.1.0"
+description = "benchmarking DL models for pcb surface defect detection"
+authors = ["Hud Wahab <hududed@gmail.com>"]
+license = "Apache 2.0"
+readme = "README.md"
+packages = [{include = "pcb_defect_detection"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+declxml = "0.9.1"
+
+
+[tool.poetry.group.dev.dependencies]
+autopep8 = "^2.0.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
